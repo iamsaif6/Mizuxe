@@ -1,0 +1,45 @@
+body {
+  margin-top: 90px; }
+
+.navbar {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 3px #3292A6; }
+  .navbar .nav-item {
+    padding-left: 10px; }
+    .navbar .nav-item .nav-link {
+      font-size: 22px;
+      color: #252525; }
+    .navbar .nav-item .nav-link:hover {
+      color: #3292A6; }
+  .navbar .nav-item:first {
+    padding-left: 0; }
+
+#home {
+  background: url("../img/home.jpg") no-repeat center;
+  background-size: cover;
+  min-height: 80vh; }
+  #home .overlay {
+    background: rgba(50, 146, 166, 0.8);
+    min-height: 80vh; }
+  #home .home-info {
+    margin-top: 120px;
+    margin-bottom: 50px; }
+
+#subscribe {
+  background: #252525; }
+
+#author .fa {
+  font-size: 25px; }
+
+#author img {
+  margin-top: -50px; }
+
+#author .card:hover {
+  background: #3292A6;
+  color: #fff; }
+  #author .card:hover .fa {
+    color: #fff; }
+
+@media (max-width: 576px) {
+  #home h1 {
+    font-size: 60px; } }
